@@ -4,7 +4,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
     switch (msg)
     {
-        case WM_PAINT:                // чтобы переключать картинки нужны комментарии  (большой минус этой работы))
+        case WM_PAINT:                
         {
             PAINTSTRUCT ps;
             HDC hdc = BeginPaint(hwnd, &ps);
